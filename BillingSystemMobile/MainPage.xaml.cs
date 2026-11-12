@@ -60,6 +60,5 @@ namespace BillingSystemMobile
                 "Save functionality will be connected to the database in Activity 9.",
                 "OK");
         }
-
     }
 }
