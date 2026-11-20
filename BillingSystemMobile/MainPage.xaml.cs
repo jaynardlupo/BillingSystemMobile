@@ -9,9 +9,8 @@ namespace BillingSystemMobile
             InitializeComponent();
         }
 
-        // Fires whenever Previous Reading, Present Reading,
-        // or Rate Per Cubic changes. Recomputes Total Amount.
-        private void OnReadingChanged(object sender, TextChangedEventArgs e)
+        
+        private void OnReadingChanged(object sender, TextChangedEventArgs e) 
         {
             ComputeTotal();
         }
