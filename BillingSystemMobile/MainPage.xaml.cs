@@ -9,8 +9,8 @@ namespace BillingSystemMobile
             InitializeComponent();
         }
 
-        
-        private void OnReadingChanged(object sender, TextChangedEventArgs e) 
+
+        private void OnReadingChanged(object sender, TextChangedEventArgs e)
         {
             ComputeTotal();
         }
